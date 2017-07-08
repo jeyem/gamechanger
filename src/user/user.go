@@ -2,15 +2,13 @@ package user
 
 import (
 	"company/bab/application"
-	session "echo-session"
 
 	"github.com/jeyem/mogo"
 	"github.com/labstack/echo"
 )
 
 var (
-	db   *mogo.DB
-	sess session.CookieStore
+	db *mogo.DB
 )
 
 const (
